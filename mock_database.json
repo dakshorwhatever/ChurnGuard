@@ -1,0 +1,54 @@
+{
+    "users": [
+        {
+            "id": "user_a",
+            "name": "User A",
+            "status": "Happy",
+            "login_frequency": "daily",
+            "features_used": [
+                "dashboard",
+                "reports",
+                "export",
+                "settings"
+            ],
+            "support_tickets": [],
+            "days_since_last_login": 0
+        },
+        {
+            "id": "user_b",
+            "name": "User B",
+            "status": "Frustrated",
+            "login_frequency": "rare",
+            "features_used": [
+                "dashboard"
+            ],
+            "support_tickets": [
+                {
+                    "issue": "billing discrepancy",
+                    "status": "open"
+                },
+                {
+                    "issue": "billing failed",
+                    "status": "closed"
+                },
+                {
+                    "issue": "invoice request",
+                    "status": "open"
+                }
+            ],
+            "days_since_last_login": 5
+        },
+        {
+            "id": "user_c",
+            "name": "User C",
+            "status": "Fading",
+            "login_frequency": "weekly",
+            "features_used": [
+                "dashboard",
+                "reports"
+            ],
+            "support_tickets": [],
+            "days_since_last_login": 7
+        }
+    ]
+}
